@@ -1,0 +1,4 @@
+{
+    "db":"mongodb+srv://resto:123123resto@cluster0.4bvgv.mongodb.net/resto?retryWrites=true&w=majority",
+    "secret":"hamdi"
+}

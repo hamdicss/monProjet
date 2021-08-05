@@ -1,0 +1,27 @@
+{
+  "name": "mon_projet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "dev": "concurrently \"npm start\" \"cd front && npm start\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^5.0.2",
+    "concurrently": "^6.2.0",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.4",
+    "react-bootstrap": "^2.0.0-beta.4",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-thunk": "^1.0.0",
+    "redux-thunk": "^2.3.0"
+  }
+}

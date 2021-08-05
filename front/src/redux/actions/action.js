@@ -14,7 +14,7 @@ import {
       type: REGISTER,
     });
     try {
-      let res = await axios.post("/register/registerad", newUser);
+      let res = await axios.post("/user/registerad", newUser);
       console.log(res);
       dispatch({
         type: REGISTER_SUCCESS,
@@ -33,7 +33,8 @@ import {
       type: LOGIN,
     });
     try {
-      let  res = await  axios.post("/login/login", user);
+      let  res = await  axios.post("/user/login", user);
+      console.log(res)
       localStorage.setItem("token", res.data.token);
       dispatch({
         type: LOGIN_SUCCESS,
